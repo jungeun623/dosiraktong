@@ -97,13 +97,13 @@
   background-color: #fff;
 }
 /* 스크롤될때 모바일 바 색상변경 */
-.header.active .mbt span{
+.header.active .mbt span {
   background-color: #222;
 }
 .mbt span:nth-child(1) {
   top: 0;
   transition: all 0.3s;
-  /* 회전축 이동 */
+  /* 회전축 이동  */
   transform-origin: 0 50%;
 }
 .mbt.ani span:nth-child(1) {
@@ -121,39 +121,39 @@
 }
 .mbt.ani span:nth-child(3) {
   transition: all 0.3s;
-  /* 회전축 이동 */
+  /* 회전축 이동  */
   transform-origin: 0 50%;
   transform: rotate(-45deg);
 }
 /* 모바일 메뉴 */
 .nav-mb {
-  /* display: none; */
   position: absolute;
-  /* 모바일일때 header의 높이 */
+  /* 모바일때 header의 높이 */
   top: 70px;
   left: 100%;
   width: 100%;
-  /* 브라우저 전체높이 = 100vh   */
+  /* 브라우저 전체높이 100vh */
   height: calc(100vh - 70px);
   background-color: #fff;
   transition: all 0.3s ease-in-out;
   opacity: 0;
 }
+/* 모바일 메뉴 활성화 */
 .nav-mb.active{
-  left: 0%; !important;
-  opacity: 1; !important;
+  left: 0% !important;
+  opacity: 1 !important;
 }
-.nav-mb-gnb li{
+.nav-mb-gnb li {
   line-height: 67px;
 }
-.nav-mb-gnb li a{
+.nav-mb-gnb li a {
   display: block;
   padding: 0 40px;
   font-size: 2.4rem;
   color: #222;
   border-bottom: 1px solid #e5e5e5;
 }
-/* 반응형 */
+/* 반응형  */
 @media screen and (max-width:1280px) {
   .header{
     padding: 0 30px;
@@ -161,21 +161,22 @@
   .logo{
     width: 150px;
   }
-  .gnb > li > a{
+  .gnb > li > a {
     padding: 0 26px;
   }
 }
-@media screen and (max-width:1024px) {
-  .logo{
-    width: 120px;
-  }
-  .header{
-    height: 70px;
-  }
-  .gnb{
-    display: none;
-  }
-  .mbt{
-    display: block;
-  }
+@media screen and (max-width:1024px){
+.logo{
+  width: 120px;
+  
+}
+.header{
+  height: 70px;
+}
+.gnb{
+  display: none;
+}
+.mbt{
+  display: block;
+}
 }
