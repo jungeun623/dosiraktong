@@ -11,4 +11,9 @@ window.addEventListener("load", function () {
       },
     },
   });
+  // 비지니스 - 모달 기능
+  const businessModal = this.document.querySelector(".business-modal")
+  businessModal.addEventListener("click",function(){
+    businessModal.sytle.display = "none";
+  });
 });
