@@ -20,24 +20,22 @@ img {
   vertical-align: middle;
   border: 0;
 }
-html{
- 
-    /* rem적용 */
-    font-size: 10px;
+html {
+  /* rem적용 */
+  font-size: 10px;
 }
-html.active{
+html.active {
   overflow: hidden;
 }
-body{
-    font-family: "Pretendard", sans-serif;
-    font-size: 16px;
-    line-height: 1;
-    letter-spacing: 0;
-    font-weight: 400;
-    color: #222;
-    word-break: keep-all;
-    background-color: rgb(10, 58, 58);
-    height: 2000px;
+body {
+  font-family: "Pretendard", sans-serif;
+  font-size: 16px;
+  line-height: 1;
+  letter-spacing: 0;
+  font-weight: 400;
+  color: #222;
+  word-break: keep-all;
+  height: 2000px;
 }
 /* 공통영역 */
 .inner {
@@ -45,10 +43,9 @@ body{
   width: 100%;
   max-width: 1420px;
   margin: 0 auto;
-background-color: burlywood;
 }
 /* gotop */
-.gotop{
+.gotop {
   position: fixed;
   right: 20px;
   bottom: 20px;
@@ -65,11 +62,10 @@ background-color: burlywood;
   visibility: hidden;
   transition: all 0.3s;
 }
-.gotop.active{
-  /* bottom: 20px; */
+.gotop.active {
   visibility: visible;
   opacity: 1;
 }
-.gotop.active.footer{
-  bottom: 32px;
+.gotop.active-footer {
+  bottom: 320px;
 }

@@ -10,7 +10,6 @@
   width: calc(100% - 20px * 2);
   margin: 0 auto;
   max-width: 1420px;
-  background-color: chartreuse;
 
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -86,5 +85,24 @@
   .about-link {
     margin: 0 auto;
     margin-bottom: 80px;
+  }
+}
+@media screen and (max-width: 320px) {
+  h2 {
+    font-size: 26px !important;
+  }
+  .about-txt-main {
+    font-size: 18px !important;
+  }
+  .p_mb {
+    width: 250px;
+    font-size: 12.5px;
+    margin: auto;
+  }
+  .about {
+    padding: 0;
+  }
+  .footer {
+    padding: 40px 20px !important;
   }
 }

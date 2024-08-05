@@ -21,7 +21,7 @@ window.addEventListener("load", function () {
       }
     },
     offset: "50%",
-  });
+  })
   const waypoint_footer = new Waypoint({
     element: document.querySelector(".footer"),
     handler: function (direction) {
@@ -34,4 +34,5 @@ window.addEventListener("load", function () {
     },
     offset: "95%",
   });
+ 
 });
